@@ -17,7 +17,7 @@ import java.nio.file.Path;
  *   <li>Single-producer approach is typically lock-free at the queue level.</li>
  * </ul>
  */
-@Component
+
 public class ChronicleQueueOrderPublisher implements AutoCloseable {
 
     private final ChronicleQueue queue;
